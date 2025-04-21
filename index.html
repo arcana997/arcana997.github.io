@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第一次练习</title>
+ </head>
+ <body>
+    <div class="dakuang">
+        <div class="biaoti">冷面小青龙</div>
+        <div class="shuru">
+            <input class="shuru1" type="text" placeholder="输入习性">
+            <div class="anniu">添加</div>
+        </div>
+        <div class="item completed">
+            <div>
+                <input type="checkbox"/>
+                <span class="name">呆呆愣愣</span>
+            </div>
+            <div class="del">del</div>
+        </div>
+        <div class="item">
+            <div>
+                <input type="checkbox"/>
+                <span class="name">击云从不离身</span>
+            </div>
+            <div class="del">del</div>
+        </div>
+        <div class="item">
+            <div>
+                <input type="checkbox"/>
+                <span class="name">生性喜爱凉水</span>
+            </div>
+            <div class="del">del</div>
+        </div>
+        <div class="item">
+            <div>
+                <input type="checkbox"/>
+                <span class="name">喜欢整理智库</span>
+            </div>
+            <div class="del">del</div>
+        </div>
+        
+    </div>
+    <style>
+        .completed{
+            text-decoration: line-through;
+            opacity: 0.4;
+        }
+        .del{
+            color: #b54b4b;
+        }
+        .item{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-sizing: border-box;
+            width: 70%;
+            height: 50px;
+            margin: 20px 0 0 30px;
+            padding: 16px;
+            border-radius: 20px;
+            box-shadow: 5px 5px 07px rgb(154, 199, 186);
+
+        }
+        .anniu{
+            width: 60px;
+            height: 52px;
+            border-radius: 0 20px 20px 0;
+            text-align: center;
+            line-height: 52px;
+            background-color: rgb(217, 172, 163);
+            color: rgb(255, 255, 255);
+            cursor: pointer;
+            user-select: none;
+
+        }
+        .shuru1{
+            margin-bottom: 20px;
+            padding-left: 15px;
+            border: 1px solid rgb(95, 158, 141);
+            outline: none;
+            width: 70%;
+            height: 50px;
+            border-radius: 20px 0 0 20px;
+            background: linear-gradient(to right, rgb(166, 225, 209), rgb(217, 172, 163))
+            
+        }
+        .shuru{
+            display: flex;
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+        body{
+            background: linear-gradient(to right, rgb(129, 188, 172), rgb(185, 125, 113))
+        }
+        .dakuang{
+            padding-top: 30px;
+            box-sizing: border-box;
+            width: 98%;
+            height: 500px;
+            background-color: rgb(214, 214, 214);
+            border-radius: 8px;
+            margin-top: 40px;
+            margin-left: 1%;
+        }
+        .biaoti{
+            font-size: 40px;
+            font-weight: 600;
+            text-align: center;
+            color: rgb(95, 158, 141)
+        ;
+        }
+        
+    </style>
+
+
+ </body>
+</html>
